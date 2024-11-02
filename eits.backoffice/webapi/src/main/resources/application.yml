@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: webapi
+  profiles:
+    active: dev
+
+api:
+  eits-base-url: https://eits.ria.ee

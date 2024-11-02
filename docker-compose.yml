@@ -2,7 +2,7 @@ services:
   web-ui:
     container_name: ria.e-its.ui
     build:
-      context: ./webapp
+      context: ./eits.web-ui
     ports:
       - "4200:80"
     depends_on:
@@ -11,6 +11,7 @@ services:
   api:
     container_name: ria.e-its.api
     build:
-      context: ./core/client
+      context: ./eits.backoffice
+      dockerfile: Dockerfile
     ports:
       - "8080:8080"
