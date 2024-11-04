@@ -1,0 +1,1039 @@
+{
+  "version": "2023",
+  "lang": "et",
+  "validFrom": "2024-01-30",
+  "validTo": "2024-12-31",
+  "id": "c55def83e6ca3be7f0f07e2e3bac8567",
+  "moduleGroups": [
+    {
+      "groupId": "baaea5eec5b0de23b6198cff38f31cb7",
+      "groupTitle": "ISMS. Turbehaldus",
+      "parentGroupId": "c55def83e6ca3be7f0f07e2e3bac8567",
+      "moduleSubgroups": [],
+      "modules": [
+        {
+          "moduleId": "a1afa5a5f61d50a2760eb2caa1612782",
+          "groupId": "baaea5eec5b0de23b6198cff38f31cb7",
+          "moduleTitle": "ISMS.1: Turbehaldus",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/isms-turbehaldus/isms1-turbehaldus/",
+          "moduleCode": "ISMS.1"
+        }
+      ],
+      "groupCode": "ISMS."
+    },
+    {
+      "groupId": "d9f83305c48897e7ae0d2fd718b45918",
+      "groupTitle": "ORP. Organisatsioon ja personal",
+      "parentGroupId": "c55def83e6ca3be7f0f07e2e3bac8567",
+      "moduleSubgroups": [],
+      "modules": [
+        {
+          "moduleId": "3c63f2abf00c6065ef992917b7a2ed14",
+          "groupId": "d9f83305c48897e7ae0d2fd718b45918",
+          "moduleTitle": "ORP.1: Infoturbe korraldus",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/orp-organisatsioon-ja-personal/orp1-infoturbe-korraldus/",
+          "moduleCode": "ORP.1"
+        },
+        {
+          "moduleId": "5ce21b4815dd80a31c4647359652b220",
+          "groupId": "d9f83305c48897e7ae0d2fd718b45918",
+          "moduleTitle": "ORP.2: Personal",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/orp-organisatsioon-ja-personal/orp2-personal/",
+          "moduleCode": "ORP.2"
+        },
+        {
+          "moduleId": "24f52aa4dd1bab33b5d219b1737c531f",
+          "groupId": "d9f83305c48897e7ae0d2fd718b45918",
+          "moduleTitle": "ORP.3: Infoturbe teadlikkuse tõstmine ja koolitus",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/orp-organisatsioon-ja-personal/orp3-infoturbe-teadlikkuse-toostmine-ja-koolitus/",
+          "moduleCode": "ORP.3"
+        },
+        {
+          "moduleId": "ba51bdfc08f9617e4887342dac8d7a8a",
+          "groupId": "d9f83305c48897e7ae0d2fd718b45918",
+          "moduleTitle": "ORP.4: Identiteedi- ja õiguste haldus",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/orp-organisatsioon-ja-personal/orp4-identiteedi-ja-ooiguste-haldus/",
+          "moduleCode": "ORP.4"
+        },
+        {
+          "moduleId": "c1f3b9ba9d622927aedede5069d0f0a7",
+          "groupId": "d9f83305c48897e7ae0d2fd718b45918",
+          "moduleTitle": "ORP.5: Vastavusehaldus",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/orp-organisatsioon-ja-personal/orp5-vastavusehaldus/",
+          "moduleCode": "ORP.5"
+        }
+      ],
+      "groupCode": "ORP."
+    },
+    {
+      "groupId": "8472d3d777ab02194abaae0d64cb5627",
+      "groupTitle": "CON.  Kontseptsioonid ja metoodikad",
+      "parentGroupId": "c55def83e6ca3be7f0f07e2e3bac8567",
+      "moduleSubgroups": [],
+      "modules": [
+        {
+          "moduleId": "8ae5b33c253ec332ca65cf6cdf9ad706",
+          "groupId": "8472d3d777ab02194abaae0d64cb5627",
+          "moduleTitle": "CON.1: Krüptokontseptsioon",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/con-kontseptsioonid-ja-metoodikad/con1-krueptokontseptsioon/",
+          "moduleCode": "CON.1"
+        },
+        {
+          "moduleId": "e9c80ae24a76819db994652ffada8b0f",
+          "groupId": "8472d3d777ab02194abaae0d64cb5627",
+          "moduleTitle": "CON.2: Isikuandmete kaitse",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/con-kontseptsioonid-ja-metoodikad/con2-isikuandmete-kaitse/",
+          "moduleCode": "CON.2"
+        },
+        {
+          "moduleId": "58b0eaff16de45b3e9b11bea91b849ee",
+          "groupId": "8472d3d777ab02194abaae0d64cb5627",
+          "moduleTitle": "CON.3: Andmevarunduse kontseptsioon",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/con-kontseptsioonid-ja-metoodikad/con3-andmevarunduse-kontseptsioon/",
+          "moduleCode": "CON.3"
+        },
+        {
+          "moduleId": "2455b9079e2b5f76067b293a827746b7",
+          "groupId": "8472d3d777ab02194abaae0d64cb5627",
+          "moduleTitle": "CON.6: Andmete kustutus ja hävitamine",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/con-kontseptsioonid-ja-metoodikad/con6-andmete-kustutus-ja-haevitamine/",
+          "moduleCode": "CON.6"
+        },
+        {
+          "moduleId": "4ed12876a7f6f3d6a96b96360f4b91b9",
+          "groupId": "8472d3d777ab02194abaae0d64cb5627",
+          "moduleTitle": "CON.7: Välislähetuste infoturve",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/con-kontseptsioonid-ja-metoodikad/con7-vaelislaehetuste-infoturve/",
+          "moduleCode": "CON.7"
+        },
+        {
+          "moduleId": "6678cbb7bf13e7180dcd04ca0250b6cb",
+          "groupId": "8472d3d777ab02194abaae0d64cb5627",
+          "moduleTitle": "CON.8: Tarkvaraarendus",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/con-kontseptsioonid-ja-metoodikad/con8-tarkvaraarendus/",
+          "moduleCode": "CON.8"
+        },
+        {
+          "moduleId": "7a9489ab69c884842333cc32c903cbd0",
+          "groupId": "8472d3d777ab02194abaae0d64cb5627",
+          "moduleTitle": "CON.9: Teabevahetus",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/con-kontseptsioonid-ja-metoodikad/con9-teabevahetus/",
+          "moduleCode": "CON.9"
+        },
+        {
+          "moduleId": "199fc091978c65b1f7ca553c02f28c5b",
+          "groupId": "8472d3d777ab02194abaae0d64cb5627",
+          "moduleTitle": "CON.10: Veebirakenduste arendus",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/con-kontseptsioonid-ja-metoodikad/con10-veebirakenduste-arendus/",
+          "moduleCode": "CON.10"
+        }
+      ],
+      "groupCode": "CON."
+    },
+    {
+      "groupId": "611c5df5f44bcea9566739183bbcb43c",
+      "groupTitle": "OPS. Käidutööd",
+      "parentGroupId": "c55def83e6ca3be7f0f07e2e3bac8567",
+      "moduleSubgroups": [
+        {
+          "groupId": "8936b1f75265f9d59f21ef8bdcc357ac",
+          "groupTitle": "OPS.1: Oma käidutööd",
+          "parentGroupId": "611c5df5f44bcea9566739183bbcb43c",
+          "moduleSubgroups": [
+            {
+              "groupId": "7dc05663e550f8acf7e736595de90c6a",
+              "groupTitle": "OPS.1.1: IT-põhitööd",
+              "parentGroupId": "8936b1f75265f9d59f21ef8bdcc357ac",
+              "moduleSubgroups": [],
+              "modules": [
+                {
+                  "moduleId": "06190bfa0340ad012f6999e86377044d",
+                  "groupId": "7dc05663e550f8acf7e736595de90c6a",
+                  "moduleTitle": "OPS.1.1.1: IT-haldus üldiselt",
+                  "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/ops-kaeidutoeoed/ops1-oma-kaeidutoeoed/ops11-itpoohitoeoed/ops111-ithaldus-ueldiselt/",
+                  "moduleCode": "OPS.1.1.1"
+                },
+                {
+                  "moduleId": "105aaf6d9a1e6f34e9be2a8577d50eb4",
+                  "groupId": "7dc05663e550f8acf7e736595de90c6a",
+                  "moduleTitle": "OPS.1.1.2: IT-süsteemide haldus",
+                  "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/ops-kaeidutoeoed/ops1-oma-kaeidutoeoed/ops11-itpoohitoeoed/ops112-itsuesteemide-haldus/",
+                  "moduleCode": "OPS.1.1.2"
+                },
+                {
+                  "moduleId": "4082f89beb1f9e102acf3fdde405a08a",
+                  "groupId": "7dc05663e550f8acf7e736595de90c6a",
+                  "moduleTitle": "OPS.1.1.3: Paiga- ja muudatusehaldus",
+                  "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/ops-kaeidutoeoed/ops1-oma-kaeidutoeoed/ops-11-itpoohitoeoed/ops113-paiga-ja-muudatusehaldus/",
+                  "moduleCode": "OPS.1.1.3"
+                },
+                {
+                  "moduleId": "f8aacb8ce91038a07a1b5d2211f078bb",
+                  "groupId": "7dc05663e550f8acf7e736595de90c6a",
+                  "moduleTitle": "OPS.1.1.4: Kaitse kahjurprogrammide eest",
+                  "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/ops-kaeidutoeoed/ops1-oma-kaeidutoeoed/ops-11-itpoohitoeoed/ops114-kaitse-kahjurprogrammide-eest/",
+                  "moduleCode": "OPS.1.1.4"
+                },
+                {
+                  "moduleId": "5a7ff14eab77f276670d3976d0d02c1d",
+                  "groupId": "7dc05663e550f8acf7e736595de90c6a",
+                  "moduleTitle": "OPS.1.1.5: Logimine",
+                  "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/ops-kaeidutoeoed/ops1-oma-kaeidutoeoed/ops11-itpoohitoeoed/ops115-logimine/",
+                  "moduleCode": "OPS.1.1.5"
+                },
+                {
+                  "moduleId": "674383b6031eeb90688a033698386053",
+                  "groupId": "7dc05663e550f8acf7e736595de90c6a",
+                  "moduleTitle": "OPS.1.1.6: Tarkvara testimine ja kasutuselevõtt",
+                  "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/ops-kaeidutoeoed/ops1-oma-kaeidutoeoed/ops11-itpoohitoeoed/ops116-tarkvara-testimine-ja-kasutuselevoott/",
+                  "moduleCode": "OPS.1.1.6"
+                },
+                {
+                  "moduleId": "6f3ae1346884535dfcb0728a2935eaf0",
+                  "groupId": "7dc05663e550f8acf7e736595de90c6a",
+                  "moduleTitle": "OPS.1.1.7: Süsteemihaldus",
+                  "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/ops-kaeidutoeoed/ops1-oma-kaeidutoeoed/ops11-itpoohitoeoed/ops117-suesteemihaldus/",
+                  "moduleCode": "OPS.1.1.7"
+                }
+              ],
+              "groupCode": "OPS.1.1:"
+            },
+            {
+              "groupId": "fadda27463845c91465fd93ef76e37c0",
+              "groupTitle": "OPS.1.2: Abitegevused",
+              "parentGroupId": "8936b1f75265f9d59f21ef8bdcc357ac",
+              "moduleSubgroups": [],
+              "modules": [
+                {
+                  "moduleId": "31ad557222c7826daf858132f269f883",
+                  "groupId": "fadda27463845c91465fd93ef76e37c0",
+                  "moduleTitle": "OPS.1.2.2: Arhiveerimine",
+                  "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/ops-kaeidutoeoed/ops1-oma-kaeidutoeoed/ops12-abitegevused/ops122-arhiveerimine/",
+                  "moduleCode": "OPS.1.2.2"
+                },
+                {
+                  "moduleId": "9689341fca2f7529b968e178890a0d63",
+                  "groupId": "fadda27463845c91465fd93ef76e37c0",
+                  "moduleTitle": "OPS.1.2.4: Kaugtöö",
+                  "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/ops-kaeidutoeoed/ops1-oma-kaeidutoeoed/ops12-abitegevused/ops124-kaugtoeoe/",
+                  "moduleCode": "OPS.1.2.4"
+                },
+                {
+                  "moduleId": "790794a424110f9fab450d7a4320e31a",
+                  "groupId": "fadda27463845c91465fd93ef76e37c0",
+                  "moduleTitle": "OPS.1.2.5: Kaughooldus",
+                  "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/ops-kaeidutoeoed/ops1-oma-kaeidutoeoed/ops12-abitegevused/ops125-kaughooldus/",
+                  "moduleCode": "OPS.1.2.5"
+                },
+                {
+                  "moduleId": "c7c484e94faeae87dafd6a97b9a963d5",
+                  "groupId": "fadda27463845c91465fd93ef76e37c0",
+                  "moduleTitle": "OPS.1.2.6: Kellade sünkroniseerimine NTP-serveriga",
+                  "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/ops-kaeidutoeoed/ops1-oma-kaeidutoeoed/ops-12-abitegevused/ops126-kellade-suenkroniseerimine-ntpserveriga/",
+                  "moduleCode": "OPS.1.2.6"
+                }
+              ],
+              "groupCode": "OPS.1.2:"
+            }
+          ],
+          "modules": [],
+          "groupCode": "OPS.1:"
+        },
+        {
+          "groupId": "9c249077c65f681c491cafbf84012d46",
+          "groupTitle": "OPS.2: Käidutööd teenusena",
+          "parentGroupId": "611c5df5f44bcea9566739183bbcb43c",
+          "moduleSubgroups": [],
+          "modules": [
+            {
+              "moduleId": "b5ab099b6f6d3ec40154873bdf9d3611",
+              "groupId": "9c249077c65f681c491cafbf84012d46",
+              "moduleTitle": "OPS.2.2: Pilvteenuste kasutamine",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/ops-kaeidutoeoed/ops2-kaeidutoeoed-teenusena/ops22-pilvteenuste-kasutamine/",
+              "moduleCode": "OPS.2.2"
+            },
+            {
+              "moduleId": "5bdfdee6b0ac97a7d9921b723cea8761",
+              "groupId": "9c249077c65f681c491cafbf84012d46",
+              "moduleTitle": "OPS.2.3: Väljasttellimine",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/ops-kaeidutoeoed/ops2-kaeidutoeoed-teenusena/ops23-vaeljasttellimine/",
+              "moduleCode": "OPS.2.3"
+            }
+          ],
+          "groupCode": "OPS.2:"
+        },
+        {
+          "groupId": "1ea5dd30d56306d694d256a9aaddcc8d",
+          "groupTitle": "OPS.3: Teenuseandja käidutööd",
+          "parentGroupId": "611c5df5f44bcea9566739183bbcb43c",
+          "moduleSubgroups": [],
+          "modules": [
+            {
+              "moduleId": "160cee66868e336ba5ed349886e56814",
+              "groupId": "1ea5dd30d56306d694d256a9aaddcc8d",
+              "moduleTitle": "OPS.3.2: Teenuseandja infoturve",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/ops-kaeidutoeoed/ops3-teenuseandja-kaeidutoeoed/ops32-teenuseandja-infoturve/",
+              "moduleCode": "OPS.3.2"
+            }
+          ],
+          "groupCode": "OPS.3:"
+        }
+      ],
+      "modules": [],
+      "groupCode": "OPS."
+    },
+    {
+      "groupId": "e857847191aab4da1e58cb92a3668d51",
+      "groupTitle": "DER. Avastamine ja reageerimine",
+      "parentGroupId": "c55def83e6ca3be7f0f07e2e3bac8567",
+      "moduleSubgroups": [
+        {
+          "groupId": "6127ceddb19713dda7846252d63c6c21",
+          "groupTitle": "DER.2: Turvaintsidentide haldus",
+          "parentGroupId": "e857847191aab4da1e58cb92a3668d51",
+          "moduleSubgroups": [],
+          "modules": [
+            {
+              "moduleId": "e8e44d4e23b3f96e5fcc8cb2f28f76ba",
+              "groupId": "6127ceddb19713dda7846252d63c6c21",
+              "moduleTitle": "DER.2.1: Turvaintsidentide käsitlus",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/der-avastamine-ja-reageerimine/der2-turvaintsidentide-haldus/der21-turvaintsidentide-kaesitlus/",
+              "moduleCode": "DER.2.1"
+            },
+            {
+              "moduleId": "f3882b211a667471b83b68e51724031b",
+              "groupId": "6127ceddb19713dda7846252d63c6c21",
+              "moduleTitle": "DER.2.2: IT-kriminalistika võimaldamine",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/der-avastamine-ja-reageerimine/der2-turvaintsidentide-haldus/der22-itkriminalistika-vooimaldamine/",
+              "moduleCode": "DER.2.2"
+            },
+            {
+              "moduleId": "816ba01913ac174c566c7e2eff210997",
+              "groupId": "6127ceddb19713dda7846252d63c6c21",
+              "moduleTitle": "DER.2.3: Ulatuslike turvaintsidentide lahendamine",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/der-avastamine-ja-reageerimine/der2-turvaintsidentide-haldus/der23-ulatuslike-turvaintsidentide-lahendamine/",
+              "moduleCode": "DER.2.3"
+            }
+          ],
+          "groupCode": "DER.2:"
+        },
+        {
+          "groupId": "f8d4bcf882568ad09e4aaabb7086cb64",
+          "groupTitle": "DER.3: Infoturbe hindamine",
+          "parentGroupId": "e857847191aab4da1e58cb92a3668d51",
+          "moduleSubgroups": [],
+          "modules": [
+            {
+              "moduleId": "76a8b7b35f8cf65eab60794e0eddf32f",
+              "groupId": "f8d4bcf882568ad09e4aaabb7086cb64",
+              "moduleTitle": "DER.3.1: Auditid ja läbivaatused",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/der-avastamine-ja-reageerimine/der3-infoturbe-hindamine/der31-auditid-ja-laebivaatused/",
+              "moduleCode": "DER.3.1"
+            },
+            {
+              "moduleId": "71acf4f26ea92c422fb4e37d6082e132",
+              "groupId": "f8d4bcf882568ad09e4aaabb7086cb64",
+              "moduleTitle": "DER.3.2: Infoturbe vastavusauditid",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/der-avastamine-ja-reageerimine/der3-infoturbe-hindamine/der32-infoturbe-vastavusauditid/",
+              "moduleCode": "DER.3.2"
+            }
+          ],
+          "groupCode": "DER.3:"
+        }
+      ],
+      "modules": [
+        {
+          "moduleId": "c9076fa4a194eb2e48e0f99fdf76d2db",
+          "groupId": "e857847191aab4da1e58cb92a3668d51",
+          "moduleTitle": "DER.1: Turvaintsidentide avastamine",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/der-avastamine-ja-reageerimine/der1-turvaintsidentide-avastamine/",
+          "moduleCode": "DER.1"
+        },
+        {
+          "moduleId": "20a3c5c3bdfff1d89381c05798751b16",
+          "groupId": "e857847191aab4da1e58cb92a3668d51",
+          "moduleTitle": "DER.4: Avariihaldus",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/der-avastamine-ja-reageerimine/der4-avariihaldus/",
+          "moduleCode": "DER.4"
+        }
+      ],
+      "groupCode": "DER."
+    },
+    {
+      "groupId": "2eb050987e4b800d6de2ea61f466dd30",
+      "groupTitle": "INF. Taristu",
+      "parentGroupId": "c55def83e6ca3be7f0f07e2e3bac8567",
+      "moduleSubgroups": [],
+      "modules": [
+        {
+          "moduleId": "22fed02177c62aab952c7b069a24e097",
+          "groupId": "2eb050987e4b800d6de2ea61f466dd30",
+          "moduleTitle": "INF.1: Hoone üldiselt",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/inf-taristu/inf1-hoone-ueldiselt/",
+          "moduleCode": "INF.1"
+        },
+        {
+          "moduleId": "e0df0fc3a6d6c57be6319ab00e1f2675",
+          "groupId": "2eb050987e4b800d6de2ea61f466dd30",
+          "moduleTitle": "INF.2: Serveriruum ja andmekeskus",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/inf-taristu/inf2-serveriruum-ja-andmekeskus/",
+          "moduleCode": "INF.2"
+        },
+        {
+          "moduleId": "9434afd0270e8b093dfbc966ae097ca2",
+          "groupId": "2eb050987e4b800d6de2ea61f466dd30",
+          "moduleTitle": "INF.5: Tehnilise taristu ruum või kapp",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/inf-taristu/inf5-tehnilise-taristu-ruum-vooi-kapp/",
+          "moduleCode": "INF.5"
+        },
+        {
+          "moduleId": "0a1425694452759d6b72ff89df016e8c",
+          "groupId": "2eb050987e4b800d6de2ea61f466dd30",
+          "moduleTitle": "INF.6: Andmekandjate arhiiv",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/inf-taristu/inf6-andmekandjate-arhiiv/",
+          "moduleCode": "INF.6"
+        },
+        {
+          "moduleId": "8073f2b4924e2442ac7f07c9e5ced814",
+          "groupId": "2eb050987e4b800d6de2ea61f466dd30",
+          "moduleTitle": "INF.7: Bürootöökoht",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/inf-taristu/inf7-buerootoeoekoht/",
+          "moduleCode": "INF.7"
+        },
+        {
+          "moduleId": "afbf45fd208309df01d1d0e07113b800",
+          "groupId": "2eb050987e4b800d6de2ea61f466dd30",
+          "moduleTitle": "INF.8: Kodutöökoht",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/inf-taristu/inf8-kodutoeoekoht/",
+          "moduleCode": "INF.8"
+        },
+        {
+          "moduleId": "00f3405bcfbb6a597233257c0c7b4a43",
+          "groupId": "2eb050987e4b800d6de2ea61f466dd30",
+          "moduleTitle": "INF.9: Mobiiltöökoht",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/inf-taristu/inf9-mobiiltoeoekoht/",
+          "moduleCode": "INF.9"
+        },
+        {
+          "moduleId": "9cb08038c9e7655f5fe2c0af2ca61fcc",
+          "groupId": "2eb050987e4b800d6de2ea61f466dd30",
+          "moduleTitle": "INF.10: Koosoleku-, ürituse- ja koolitusruum ",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/inf-taristu/inf10-koosoleku-uerituse-ja-koolitusruum/",
+          "moduleCode": "INF.10"
+        },
+        {
+          "moduleId": "5cdb9b7f1a1bc9c1d8b024c2cc01d09b",
+          "groupId": "2eb050987e4b800d6de2ea61f466dd30",
+          "moduleTitle": "INF.11: Sõidukite IT-komponendid",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/inf-taristu/inf11-sooidukite-itkomponendid/",
+          "moduleCode": "INF.11"
+        },
+        {
+          "moduleId": "432961bc59237dcf16c402fbf31fb6b4",
+          "groupId": "2eb050987e4b800d6de2ea61f466dd30",
+          "moduleTitle": "INF.12: Kaabeldus",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/inf-taristu/inf12-kaabeldus/",
+          "moduleCode": "INF.12"
+        },
+        {
+          "moduleId": "32314d18deb962cf9f5fed1ca7734252",
+          "groupId": "2eb050987e4b800d6de2ea61f466dd30",
+          "moduleTitle": "INF.13: Hoonete tehniline haldus",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/inf-taristu/inf13-hoonete-tehniline-haldus/",
+          "moduleCode": "INF.13"
+        },
+        {
+          "moduleId": "44e241917d14a865040cd5799a107ac8",
+          "groupId": "2eb050987e4b800d6de2ea61f466dd30",
+          "moduleTitle": "INF.14: Hooneautomaatikasüsteemid",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/inf-taristu/inf14-hooneautomaatikasuesteemid/",
+          "moduleCode": "INF.14"
+        }
+      ],
+      "groupCode": "INF."
+    },
+    {
+      "groupId": "1d52672441e64bfdac3274bab59c8fd7",
+      "groupTitle": "NET. Võrgud ja side",
+      "parentGroupId": "c55def83e6ca3be7f0f07e2e3bac8567",
+      "moduleSubgroups": [
+        {
+          "groupId": "a10b06a7ada8ca5fd5f59df26350abcf",
+          "groupTitle": "NET.1: Võrgud ja side",
+          "parentGroupId": "1d52672441e64bfdac3274bab59c8fd7",
+          "moduleSubgroups": [],
+          "modules": [
+            {
+              "moduleId": "5ae190f02bb68093f2fe259f08b42d5f",
+              "groupId": "a10b06a7ada8ca5fd5f59df26350abcf",
+              "moduleTitle": "NET.1.1: Võrgu arhitektuur ja lahendus",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/net-voorgud-ja-side/net1-voorgud-ja-side/net11-voorgu-arhitektuur-ja-lahendus/",
+              "moduleCode": "NET.1.1"
+            },
+            {
+              "moduleId": "a7504a902139ebf8e4a5848cf46003b9",
+              "groupId": "a10b06a7ada8ca5fd5f59df26350abcf",
+              "moduleTitle": "NET.1.2: Võrguhaldus",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/net-voorgud-ja-side/net1-voorgud-ja-side/net12-voorguhaldus/",
+              "moduleCode": "NET.1.2"
+            }
+          ],
+          "groupCode": "NET.1:"
+        },
+        {
+          "groupId": "5e5abfab7019931d9aae17a194e60cf5",
+          "groupTitle": "NET.2: Raadiovõrgud ",
+          "parentGroupId": "1d52672441e64bfdac3274bab59c8fd7",
+          "moduleSubgroups": [],
+          "modules": [
+            {
+              "moduleId": "721bce1f74e2a2de3d51688bb1501997",
+              "groupId": "5e5abfab7019931d9aae17a194e60cf5",
+              "moduleTitle": "NET.2.1: Raadiokohtvõrgu käitamine",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/net-voorgud-ja-side/net2-raadiovoorgud/net21-raadiokohtvoorgu-kaeitamine/",
+              "moduleCode": "NET.2.1"
+            },
+            {
+              "moduleId": "7845abcaddb2d86d01750ba87b983a24",
+              "groupId": "5e5abfab7019931d9aae17a194e60cf5",
+              "moduleTitle": "NET.2.2: Raadiokohtvõrgu kasutamine",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/net-voorgud-ja-side/net2-raadiovoorgud/net22-raadiokohtvoorgu-kasutamine/",
+              "moduleCode": "NET.2.2"
+            }
+          ],
+          "groupCode": "NET.2:"
+        },
+        {
+          "groupId": "e64fd4e032762cffb95e9c13ebbe78bf",
+          "groupTitle": "NET.3: Võrgukomponendid",
+          "parentGroupId": "1d52672441e64bfdac3274bab59c8fd7",
+          "moduleSubgroups": [],
+          "modules": [
+            {
+              "moduleId": "420d465c49af26b49636d2b95a69b8a1",
+              "groupId": "e64fd4e032762cffb95e9c13ebbe78bf",
+              "moduleTitle": "NET.3.1: Ruuter ja kommutaator",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/net-voorgud-ja-side/net3-voorgukomponendid/net31-ruuter-ja-kommutaator/",
+              "moduleCode": "NET.3.1"
+            },
+            {
+              "moduleId": "fbf4703ce333a52109c5749ae3bcc891",
+              "groupId": "e64fd4e032762cffb95e9c13ebbe78bf",
+              "moduleTitle": "NET.3.2: Tulemüür",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/net-voorgud-ja-side/net3-voorgukomponendid/net32-tulemueuer/",
+              "moduleCode": "NET.3.2"
+            },
+            {
+              "moduleId": "f4526219f27a49f8b21dd47e4f8b0c33",
+              "groupId": "e64fd4e032762cffb95e9c13ebbe78bf",
+              "moduleTitle": "NET.3.3: Virtuaalne privaatvõrk (VPN)",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/net-voorgud-ja-side/net3-voorgukomponendid/net33-virtuaalne-privaatvoork-vpn/",
+              "moduleCode": "NET.3.3"
+            },
+            {
+              "moduleId": "ede4c7ecf60273578be8e4ced8de945d",
+              "groupId": "e64fd4e032762cffb95e9c13ebbe78bf",
+              "moduleTitle": "NET.3.4: Võrkupääsu reguleerimine (NAC)",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/net-voorgud-ja-side/net3-voorgukomponendid/net34-voorkupaeaesu-reguleerimine-nac/",
+              "moduleCode": "NET.3.4"
+            }
+          ],
+          "groupCode": "NET.3:"
+        },
+        {
+          "groupId": "6cdb62c9f9904e7c65216b813c174679",
+          "groupTitle": "NET.4: Side",
+          "parentGroupId": "1d52672441e64bfdac3274bab59c8fd7",
+          "moduleSubgroups": [],
+          "modules": [
+            {
+              "moduleId": "00fd5e1236f3bd9cf72318e37d96bbbb",
+              "groupId": "6cdb62c9f9904e7c65216b813c174679",
+              "moduleTitle": "NET.4.1: Telefonikeskjaam",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/net-voorgud-ja-side/net4-side/net41-telefonikeskjaam/",
+              "moduleCode": "NET.4.1"
+            },
+            {
+              "moduleId": "c5fd8a18d7c9fd6b7f84d474d8120393",
+              "groupId": "6cdb62c9f9904e7c65216b813c174679",
+              "moduleTitle": "NET.4.2: IP-telefon (VoIP)",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/net-voorgud-ja-side/net4-side/net42-iptelefon-voip/",
+              "moduleCode": "NET.4.2"
+            }
+          ],
+          "groupCode": "NET.4:"
+        }
+      ],
+      "modules": [],
+      "groupCode": "NET."
+    },
+    {
+      "groupId": "5a08b0d79c5905e5e7a35fafcc3d751c",
+      "groupTitle": "SYS. IT-süsteemid",
+      "parentGroupId": "c55def83e6ca3be7f0f07e2e3bac8567",
+      "moduleSubgroups": [
+        {
+          "groupId": "543ee96f69b1a85dc095fe1cb68a766f",
+          "groupTitle": "SYS.1: Server",
+          "parentGroupId": "5a08b0d79c5905e5e7a35fafcc3d751c",
+          "moduleSubgroups": [],
+          "modules": [
+            {
+              "moduleId": "95d4b962979133c3247954650e761c95",
+              "groupId": "543ee96f69b1a85dc095fe1cb68a766f",
+              "moduleTitle": "SYS.1.1: Server üldiselt",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/sys-itsuesteemid/sys1-server/sys11-server-ueldiselt/",
+              "moduleCode": "SYS.1.1"
+            },
+            {
+              "moduleId": "b1ceb52c48c0c80719a2327796f815e0",
+              "groupId": "543ee96f69b1a85dc095fe1cb68a766f",
+              "moduleTitle": "SYS.1.2: Windows Server",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/sys-itsuesteemid/sys1-server/sys12-windows-server/",
+              "moduleCode": "SYS.1.2"
+            },
+            {
+              "moduleId": "967ad133b9acfa6535a19b64574c144c",
+              "groupId": "543ee96f69b1a85dc095fe1cb68a766f",
+              "moduleTitle": "SYS.1.3: Linuxi ja Unixi server",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/sys-itsuesteemid/sys1-server/sys13-linuxi-ja-unixi-server/",
+              "moduleCode": "SYS.1.3"
+            },
+            {
+              "moduleId": "cc599fa9a2ed983a4ec54f5cdbff00ad",
+              "groupId": "543ee96f69b1a85dc095fe1cb68a766f",
+              "moduleTitle": "SYS.1.5: Virtualiseerimissüsteem",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/sys-itsuesteemid/sys1-server/sys15-virtualiseerimissuesteem/",
+              "moduleCode": "SYS.1.5"
+            },
+            {
+              "moduleId": "0cb808ed8e52025da19be01e0076be94",
+              "groupId": "543ee96f69b1a85dc095fe1cb68a766f",
+              "moduleTitle": "SYS.1.6: Konteinerdus",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/sys-itsuesteemid/sys1-server/sys16-konteinerdus/",
+              "moduleCode": "SYS.1.6"
+            },
+            {
+              "moduleId": "988ad5b0add9b82f211f4f2c5455ee59",
+              "groupId": "543ee96f69b1a85dc095fe1cb68a766f",
+              "moduleTitle": "SYS.1.8: Salvestilahendused",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/sys-itsuesteemid/sys1-server/sys18-salvestilahendused/",
+              "moduleCode": "SYS.1.8"
+            },
+            {
+              "moduleId": "ad9958295938ae5e13fe97c0bd7475de",
+              "groupId": "543ee96f69b1a85dc095fe1cb68a766f",
+              "moduleTitle": "SYS.1.9: Terminaliserver",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/sys-itsuesteemid/sys1-server/sys19-terminaliserver/",
+              "moduleCode": "SYS.1.9"
+            }
+          ],
+          "groupCode": "SYS.1:"
+        },
+        {
+          "groupId": "1959b84ba42b038adfd766d3718750fb",
+          "groupTitle": "SYS.2: Klientarvutid",
+          "parentGroupId": "5a08b0d79c5905e5e7a35fafcc3d751c",
+          "moduleSubgroups": [],
+          "modules": [
+            {
+              "moduleId": "87d9b5695bb6eac461c2608b9ca61c05",
+              "groupId": "1959b84ba42b038adfd766d3718750fb",
+              "moduleTitle": "SYS.2.1: Klientarvuti üldiselt",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/sys-itsuesteemid/sys2-klientarvutid/sys21-klientarvuti-ueldiselt/",
+              "moduleCode": "SYS.2.1"
+            },
+            {
+              "moduleId": "1649a2e3a26454ab5557384a2c54dde1",
+              "groupId": "1959b84ba42b038adfd766d3718750fb",
+              "moduleTitle": "SYS.2.2: Windows kliendid",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/sys-itsuesteemid/sys2-klientarvutid/sys22-windows-kliendid/",
+              "moduleCode": "SYS.2.2"
+            },
+            {
+              "moduleId": "6f998bf61b0e0ab3d830c3a0b969bc7b",
+              "groupId": "1959b84ba42b038adfd766d3718750fb",
+              "moduleTitle": "SYS.2.3: Linuxi ja Unixi klient",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/sys-itsuesteemid/sys2-klientarvutid/sys23-linuxi-ja-unixi-klient/",
+              "moduleCode": "SYS.2.3"
+            },
+            {
+              "moduleId": "75b8e482501dfda1134a88c2b047014e",
+              "groupId": "1959b84ba42b038adfd766d3718750fb",
+              "moduleTitle": "SYS.2.4: macOS-i klient",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/sys-itsuesteemid/sys2-klientarvutid/sys24-macosi-klient/",
+              "moduleCode": "SYS.2.4"
+            }
+          ],
+          "groupCode": "SYS.2:"
+        },
+        {
+          "groupId": "777d71a7ecc003ac3815c72f456636ec",
+          "groupTitle": "SYS.3: Mobiilseadmed",
+          "parentGroupId": "5a08b0d79c5905e5e7a35fafcc3d751c",
+          "moduleSubgroups": [],
+          "modules": [
+            {
+              "moduleId": "d2e328834f12845b79ce55e5fa5375fd",
+              "groupId": "777d71a7ecc003ac3815c72f456636ec",
+              "moduleTitle": "SYS.3.1: Sülearvutid",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/sys-itsuesteemid/sys3-mobiilseadmed/sys31-suelearvutid/",
+              "moduleCode": "SYS.3.1"
+            },
+            {
+              "moduleId": "1750599d71034192be83e58468737d13",
+              "groupId": "777d71a7ecc003ac3815c72f456636ec",
+              "moduleTitle": "SYS.3.2: Nutitelefon ja tahvelarvuti",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/sys-itsuesteemid/sys3-mobiilseadmed/sys32-nutitelefon-ja-tahvelarvuti/",
+              "moduleCode": "SYS.3.2"
+            },
+            {
+              "moduleId": "65b6e7460a33d453c230e28c00b12d1d",
+              "groupId": "777d71a7ecc003ac3815c72f456636ec",
+              "moduleTitle": "SYS.3.3: Mobiiltelefon",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/sys-itsuesteemid/sys3-mobiilseadmed/sys33-mobiiltelefon/",
+              "moduleCode": "SYS.3.3"
+            }
+          ],
+          "groupCode": "SYS.3:"
+        },
+        {
+          "groupId": "89ace652be38a81debc632f1f3c8763c",
+          "groupTitle": "SYS.4: Muud süsteemid",
+          "parentGroupId": "5a08b0d79c5905e5e7a35fafcc3d751c",
+          "moduleSubgroups": [],
+          "modules": [
+            {
+              "moduleId": "15976e349b55c69511b12234b17a5957",
+              "groupId": "89ace652be38a81debc632f1f3c8763c",
+              "moduleTitle": "SYS.4.1: Printer ja kontorikombain",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/sys-itsuesteemid/sys4-muud-suesteemid/sys41-printer-ja-kontorikombain/",
+              "moduleCode": "SYS.4.1"
+            },
+            {
+              "moduleId": "89833195905ba41d35bbfde903c589b8",
+              "groupId": "89ace652be38a81debc632f1f3c8763c",
+              "moduleTitle": "SYS.4.3: Sardsüsteemid (embedded systems)",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/sys-itsuesteemid/sys4-muud-suesteemid/sys43-sardsuesteemid-embedded-systems/",
+              "moduleCode": "SYS.4.3"
+            },
+            {
+              "moduleId": "932da45f986d7c09b428d15f74dc9482",
+              "groupId": "89ace652be38a81debc632f1f3c8763c",
+              "moduleTitle": "SYS.4.4: Esemevõrgu (IoT) seade üldiselt",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/sys-itsuesteemid/sys4-muud-suesteemid/sys44-esemevoorgu-iot-seade-ueldiselt/",
+              "moduleCode": "SYS.4.4"
+            },
+            {
+              "moduleId": "6b46b5b80beb4555401c4d0575f01604",
+              "groupId": "89ace652be38a81debc632f1f3c8763c",
+              "moduleTitle": "SYS.4.5: Irdandmekandjad",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/sys-itsuesteemid/sys4-muud-suesteemid/sys45-irdandmekandjad/",
+              "moduleCode": "SYS.4.5"
+            }
+          ],
+          "groupCode": "SYS.4:"
+        },
+        {
+          "groupId": "7dadbd7bc10dd86fea4a28d8634a0765",
+          "groupTitle": "SYS.EE: Eesti IT-süsteemid",
+          "parentGroupId": "5a08b0d79c5905e5e7a35fafcc3d751c",
+          "moduleSubgroups": [],
+          "modules": [
+            {
+              "moduleId": "23a35da66121dd6a0123e7b2a4d0f2cd",
+              "groupId": "7dadbd7bc10dd86fea4a28d8634a0765",
+              "moduleTitle": "SYS.EE.1: X-tee turvaserver",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/sys-itsuesteemid/sysee-eesti-itsuesteemid/sysee1-xtee-turvaserver/",
+              "moduleCode": "SYS.EE.1"
+            },
+            {
+              "moduleId": "1439ec018259d256469b803e68c1433b",
+              "groupId": "7dadbd7bc10dd86fea4a28d8634a0765",
+              "moduleTitle": "SYS.EE.2: eID komponendid",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/sys-itsuesteemid/sysee-eesti-itsuesteemid/sysee2-eid-komponendid/",
+              "moduleCode": "SYS.EE.2"
+            }
+          ],
+          "groupCode": "SYS.EE:"
+        }
+      ],
+      "modules": [],
+      "groupCode": "SYS."
+    },
+    {
+      "groupId": "13c4fa8a9b2321c56f5470d69e4b05bf",
+      "groupTitle": "APP. Rakendused",
+      "parentGroupId": "c55def83e6ca3be7f0f07e2e3bac8567",
+      "moduleSubgroups": [
+        {
+          "groupId": "8d7cd0ee63e21d971b3f9a638cc0f998",
+          "groupTitle": "APP.1: Klientrakendused",
+          "parentGroupId": "13c4fa8a9b2321c56f5470d69e4b05bf",
+          "moduleSubgroups": [],
+          "modules": [
+            {
+              "moduleId": "395d92c0eb73b1b888491c635ba6d113",
+              "groupId": "8d7cd0ee63e21d971b3f9a638cc0f998",
+              "moduleTitle": "APP.1.1: Kontoritarkvara",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/app-rakendused/app1-klientrakendused/app11-kontoritarkvara/",
+              "moduleCode": "APP.1.1"
+            },
+            {
+              "moduleId": "1084ced8633a64e26d58a821e0b34769",
+              "groupId": "8d7cd0ee63e21d971b3f9a638cc0f998",
+              "moduleTitle": "APP.1.2: Veebibrauser",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/app-rakendused/app1-klientrakendused/app12-veebibrauser/",
+              "moduleCode": "APP.1.2"
+            },
+            {
+              "moduleId": "5c13bd1da7582a8c822f2a5cfb7fe036",
+              "groupId": "8d7cd0ee63e21d971b3f9a638cc0f998",
+              "moduleTitle": "APP.1.4: Mobiilirakendused (äpid)",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/app-rakendused/app1-klientrakendused/app14-mobiilirakendused-aepid/",
+              "moduleCode": "APP.1.4"
+            }
+          ],
+          "groupCode": "APP.1:"
+        },
+        {
+          "groupId": "e116c7477dccaae0170404973034b9ec",
+          "groupTitle": "APP.2: Kataloogiteenused",
+          "parentGroupId": "13c4fa8a9b2321c56f5470d69e4b05bf",
+          "moduleSubgroups": [],
+          "modules": [
+            {
+              "moduleId": "237710ce56b7fb7eedbf82175c26cde1",
+              "groupId": "e116c7477dccaae0170404973034b9ec",
+              "moduleTitle": "APP.2.1: Kataloogiteenus üldiselt",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/app-rakendused/app2-kataloogiteenused/app21-kataloogiteenus-ueldiselt/",
+              "moduleCode": "APP.2.1"
+            },
+            {
+              "moduleId": "0cc3a1755e81a557d89feb2146e1f78a",
+              "groupId": "e116c7477dccaae0170404973034b9ec",
+              "moduleTitle": "APP.2.2: Active Directory Domain Services",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/app-rakendused/app2-kataloogiteenused/app22-active-directory-domain-services/",
+              "moduleCode": "APP.2.2"
+            },
+            {
+              "moduleId": "87aab11cc06ee61c88bc001af3aa30d6",
+              "groupId": "e116c7477dccaae0170404973034b9ec",
+              "moduleTitle": "APP.2.3: OpenLDAP",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/app-rakendused/app2-kataloogiteenused/app23-openldap/",
+              "moduleCode": "APP.2.3"
+            }
+          ],
+          "groupCode": "APP.2:"
+        },
+        {
+          "groupId": "af20e92a8a723a04c25cb11e70597c6f",
+          "groupTitle": "APP.3: Võrguteenused",
+          "parentGroupId": "13c4fa8a9b2321c56f5470d69e4b05bf",
+          "moduleSubgroups": [],
+          "modules": [
+            {
+              "moduleId": "547b70d79e5d3dae723666212be0a6f1",
+              "groupId": "af20e92a8a723a04c25cb11e70597c6f",
+              "moduleTitle": "APP.3.1: Veebirakendused",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/app-rakendused/app3-voorguteenused/app31-veebirakendused/",
+              "moduleCode": "APP.3.1"
+            },
+            {
+              "moduleId": "6b58779b9a87e2c444457b1b83e83f0b",
+              "groupId": "af20e92a8a723a04c25cb11e70597c6f",
+              "moduleTitle": "APP.3.2: Veebiserver",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/app-rakendused/app3-voorguteenused/app32-veebiserver/",
+              "moduleCode": "APP.3.2"
+            },
+            {
+              "moduleId": "a0e22da3efc874e7ee411f653214fe36",
+              "groupId": "af20e92a8a723a04c25cb11e70597c6f",
+              "moduleTitle": "APP.3.3: Failiserver",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/app-rakendused/app3-voorguteenused/app33-failiserver/",
+              "moduleCode": "APP.3.3"
+            },
+            {
+              "moduleId": "0ec3d80919cfcbf83ffd547aefaa8f35",
+              "groupId": "af20e92a8a723a04c25cb11e70597c6f",
+              "moduleTitle": "APP.3.4: Samba",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/app-rakendused/app3-voorguteenused/app34-samba/",
+              "moduleCode": "APP.3.4"
+            },
+            {
+              "moduleId": "102a7ac81413dd1d4db8446f8a259dc4",
+              "groupId": "af20e92a8a723a04c25cb11e70597c6f",
+              "moduleTitle": "APP.3.6: DNS-server",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/app-rakendused/app3-voorguteenused/app36-dnsserver/",
+              "moduleCode": "APP.3.6"
+            }
+          ],
+          "groupCode": "APP.3:"
+        },
+        {
+          "groupId": "8e5e3f12f51426a1ec1fc2e69e2a4520",
+          "groupTitle": "APP.4: Ärirakendused",
+          "parentGroupId": "13c4fa8a9b2321c56f5470d69e4b05bf",
+          "moduleSubgroups": [],
+          "modules": [
+            {
+              "moduleId": "79fd940355b5f96955787df96bc36917",
+              "groupId": "8e5e3f12f51426a1ec1fc2e69e2a4520",
+              "moduleTitle": "APP.4.3: Andmebaasisüsteemid",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/app-rakendused/app4-aerirakendused/app43-andmebaasisuesteemid/",
+              "moduleCode": "APP.4.3"
+            },
+            {
+              "moduleId": "80dd883e6c383def1a0069918857a701",
+              "groupId": "8e5e3f12f51426a1ec1fc2e69e2a4520",
+              "moduleTitle": "APP.4.4: Kubernetes",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/app-rakendused/app4-aerirakendused/app44-kubernetes/",
+              "moduleCode": "APP.4.4"
+            }
+          ],
+          "groupCode": "APP.4:"
+        },
+        {
+          "groupId": "4ba981d7e78538bbefc253d682e4a2eb",
+          "groupTitle": "APP.5: Rühmatarkvara",
+          "parentGroupId": "13c4fa8a9b2321c56f5470d69e4b05bf",
+          "moduleSubgroups": [],
+          "modules": [
+            {
+              "moduleId": "ed3cc5ff4489d54780d9c5de0c238dda",
+              "groupId": "4ba981d7e78538bbefc253d682e4a2eb",
+              "moduleTitle": "APP.5.2: Microsoft Exchange ja Outlook",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/app-rakendused/app5-ruehmatarkvara/app52-microsoft-exchange-ja-outlook/",
+              "moduleCode": "APP.5.2"
+            },
+            {
+              "moduleId": "0faa748101a475c6d78be903cb02f195",
+              "groupId": "4ba981d7e78538bbefc253d682e4a2eb",
+              "moduleTitle": "APP.5.3: E-posti server ja klient üldiselt",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/app-rakendused/app5-ruehmatarkvara/app53-eposti-server-ja-klient-ueldiselt/",
+              "moduleCode": "APP.5.3"
+            },
+            {
+              "moduleId": "434a6c01fa55e335501c8c3bc7e7d0a1",
+              "groupId": "4ba981d7e78538bbefc253d682e4a2eb",
+              "moduleTitle": "APP.5.4: Ühendatud side- ja koostöölahendused (UCC)",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/app-rakendused/app5-ruehmatarkvara/app54-uehendatud-side-ja-koostoeoelahendused-ucc/",
+              "moduleCode": "APP.5.4"
+            }
+          ],
+          "groupCode": "APP.5:"
+        },
+        {
+          "groupId": "b288011f65752d70e65ff3e969b378e3",
+          "groupTitle": "APP.EE: Eesti rakendused",
+          "parentGroupId": "13c4fa8a9b2321c56f5470d69e4b05bf",
+          "moduleSubgroups": [],
+          "modules": [
+            {
+              "moduleId": "7d97766a743ca8ce5d83dce8e5ca4cb1",
+              "groupId": "b288011f65752d70e65ff3e969b378e3",
+              "moduleTitle": "APP.EE.1: X-tee andmeteenus",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/app-rakendused/appee-eesti-rakendused/appee1-xtee-andmeteenus/",
+              "moduleCode": "APP.EE.1"
+            }
+          ],
+          "groupCode": "APP.EE:"
+        }
+      ],
+      "modules": [
+        {
+          "moduleId": "45061ecd3bbc77602aa67e03e5bfdf23",
+          "groupId": "13c4fa8a9b2321c56f5470d69e4b05bf",
+          "moduleTitle": "APP.6: Tarkvara üldiselt",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/app-rakendused/app6-tarkvara-ueldiselt/",
+          "moduleCode": "APP.6"
+        },
+        {
+          "moduleId": "cdaa9f4c5cdc088c2da7317c3b3a42eb",
+          "groupId": "13c4fa8a9b2321c56f5470d69e4b05bf",
+          "moduleTitle": "APP.7: Tellimustarkvara arendus",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/app-rakendused/app7-tellimustarkvara-arendus/",
+          "moduleCode": "APP.7"
+        }
+      ],
+      "groupCode": "APP."
+    },
+    {
+      "groupId": "1432d77e93ff317f7508c86f76606112",
+      "groupTitle": "IND. Tööstuse IT",
+      "parentGroupId": "c55def83e6ca3be7f0f07e2e3bac8567",
+      "moduleSubgroups": [
+        {
+          "groupId": "ab41e7e5a5ff5360fc30a409dc3647e7",
+          "groupTitle": "IND.2: Tööstusautomaatika",
+          "parentGroupId": "1432d77e93ff317f7508c86f76606112",
+          "moduleSubgroups": [],
+          "modules": [
+            {
+              "moduleId": "8b4b1ad46a957e83eb894c8e9991824f",
+              "groupId": "ab41e7e5a5ff5360fc30a409dc3647e7",
+              "moduleTitle": "IND.2.1: Tööstusautomaatika komponendid üldiselt",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/ind-toeoestuse-it/ind2-toeoestusautomaatika/ind21-toeoestusautomaatika-komponendid-ueldiselt/",
+              "moduleCode": "IND.2.1"
+            },
+            {
+              "moduleId": "0e9c8facc9f98cbf637f1212c63d0734",
+              "groupId": "ab41e7e5a5ff5360fc30a409dc3647e7",
+              "moduleTitle": "IND.2.2: Programmeeritavad kontrollerid",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/ind-toeoestuse-it/ind2-toeoestusautomaatika/ind22-programmeeritavad-kontrollerid/",
+              "moduleCode": "IND.2.2"
+            },
+            {
+              "moduleId": "dba77add94040f206080d6fd6d7032e5",
+              "groupId": "ab41e7e5a5ff5360fc30a409dc3647e7",
+              "moduleTitle": "IND.2.3: Andurid ja täiturid",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/ind-toeoestuse-it/ind2-toeoestusautomaatika/ind23-andurid-ja-taeiturid/",
+              "moduleCode": "IND.2.3"
+            },
+            {
+              "moduleId": "9033a4890f5c9eb96170b6688fc15d76",
+              "groupId": "ab41e7e5a5ff5360fc30a409dc3647e7",
+              "moduleTitle": "IND.2.4: Robotseadmed",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/ind-toeoestuse-it/ind2-toeoestusautomaatika/ind24-robotseadmed/",
+              "moduleCode": "IND.2.4"
+            },
+            {
+              "moduleId": "9315bae43e0556f6d48083421072f49c",
+              "groupId": "ab41e7e5a5ff5360fc30a409dc3647e7",
+              "moduleTitle": "IND.2.7: Ohutusautomaatika",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/ind-toeoestuse-it/ind2-toeoestusautomaatika/ind27-ohutusautomaatika/",
+              "moduleCode": "IND.2.7"
+            }
+          ],
+          "groupCode": "IND.2:"
+        },
+        {
+          "groupId": "c062070a3eb77d0a75b168a8750987f4",
+          "groupTitle": "IND.3: Käidutehnoloogia võrgud",
+          "parentGroupId": "1432d77e93ff317f7508c86f76606112",
+          "moduleSubgroups": [],
+          "modules": [
+            {
+              "moduleId": "9dfc67e0df6c3da94a202dedb07d6675",
+              "groupId": "c062070a3eb77d0a75b168a8750987f4",
+              "moduleTitle": "IND.3.2: Käidutehnoloogia komponentide kaughooldus",
+              "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/ind-toeoestuse-it/ind3-kaeidutehnoloogia-voorgud/ind32-kaeidutehnoloogia-komponentide-kaughooldus/",
+              "moduleCode": "IND.3.2"
+            }
+          ],
+          "groupCode": "IND.3:"
+        }
+      ],
+      "modules": [
+        {
+          "moduleId": "de028e0a11cbe0f33bbda8359e80c966",
+          "groupId": "1432d77e93ff317f7508c86f76606112",
+          "moduleTitle": "IND.1: Käidu- ja protsessijuhtimissüsteemid",
+          "link": "/et/versioon/2023/eits-poohidokumendid/etalonturbe-kataloog/ind-toeoestuse-it/ind1-kaeidu-ja-protsessijuhtimissuesteemid/",
+          "moduleCode": "IND.1"
+        }
+      ],
+      "groupCode": "IND."
+    }
+  ]
+}
