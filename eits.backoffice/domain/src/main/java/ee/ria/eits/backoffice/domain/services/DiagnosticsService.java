@@ -1,7 +1,7 @@
 package ee.ria.eits.backoffice.domain.services;
 
 import ee.ria.eits.backoffice.api_client.handler.EitsApiClient;
-import ee.ria.eits.backoffice.api_client.model.HealthCheckResponse;
+import ee.ria.eits.backoffice.api_client.model.ApiHealthCheckDto;
 import ee.ria.eits.backoffice.contracts.DependentSystem;
 import ee.ria.eits.backoffice.contracts.DiagnosticsData;
 import org.springframework.stereotype.Service;
@@ -24,7 +24,7 @@ public class DiagnosticsService {
         DependentSystem eits = new DependentSystem();
         eits.setSystemName("E-ITS");
         try {
-            HealthCheckResponse eitsHealth = eitsApiClient.getHealthStatus();
+            ApiHealthCheckDto eitsHealth = eitsApiClient.getHealthStatus();
             eits.setStatusText("ok");
         } catch (Exception e){
             eits.setStatusText("error");
