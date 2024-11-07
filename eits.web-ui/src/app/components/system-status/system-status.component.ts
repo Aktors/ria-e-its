@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {CommonModule} from '@angular/common';
-import {SystemService} from '../../services/system.service';
+import {SystemService} from '../../services/api/system.service';
 
 @Component({
   selector: 'app-system-status',
@@ -18,7 +18,7 @@ export class SystemStatusComponent implements OnInit {
     console.log(this.systemService);
     this.systemService.getHeartbeat().subscribe({
       next: (response) => this.statusMessage = response,
-      error: (error) => this.statusMessage = 'Error retrieving status'
+      error: (_) => this.statusMessage = 'Error retrieving status'
     });
   }
 }

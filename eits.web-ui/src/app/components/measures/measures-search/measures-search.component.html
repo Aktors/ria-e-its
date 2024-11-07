@@ -1,0 +1,19 @@
+<div class="search-form-row" [formGroup]="form">
+  <div class="search-form-container">
+      <mat-form-field class="version-container">
+        <mat-label>Version</mat-label>
+        <mat-select formControlName="version">
+          <mat-option *ngFor="let ver of versions" [value]="ver">{{ ver }}</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="keyword-container full-width">
+        <mat-label>Võtmesõna</mat-label>
+        <input matInput formControlName="filter">
+      </mat-form-field>
+    <div class="search-button-container">
+      <button mat-icon-button aria-label="Otsi" (click)="performSearch()">
+        <mat-icon>search</mat-icon>
+      </button>
+    </div>
+  </div>
+</div>

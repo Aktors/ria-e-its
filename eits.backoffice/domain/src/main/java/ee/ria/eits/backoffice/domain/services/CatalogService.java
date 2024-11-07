@@ -37,7 +37,9 @@ public class CatalogService {
     }
 
     public String[] getVersions(){
-        return Arrays.stream(this.eitsApiClient.getVersions())
+        var catalogVersions = this.eitsApiClient.getCatalogVersions();
+
+        return Arrays.stream(catalogVersions.getVersions())
                 .map(ApiVersionDto::getVersion)
                 .toArray(String[]::new);
     }

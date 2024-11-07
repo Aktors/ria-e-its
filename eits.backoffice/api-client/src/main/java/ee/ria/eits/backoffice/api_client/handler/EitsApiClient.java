@@ -2,6 +2,7 @@ package ee.ria.eits.backoffice.api_client.handler;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import ee.ria.eits.backoffice.api_client.model.ApiCatalogDto;
+import ee.ria.eits.backoffice.api_client.model.ApiCatalogVersionsResponse;
 import ee.ria.eits.backoffice.api_client.model.ApiHealthCheckDto;
 import ee.ria.eits.backoffice.api_client.model.ApiVersionDto;
 import org.springframework.http.ResponseEntity;
@@ -47,12 +48,12 @@ public class EitsApiClient {
         return result.getBody();
     }
 
-    public ApiVersionDto[] getVersions(){
-        ResponseEntity<ApiVersionDto[]> result = this.restClient
+    public ApiCatalogVersionsResponse getCatalogVersions(){
+        ResponseEntity<ApiCatalogVersionsResponse> result = this.restClient
                 .get()
                 .uri("api/2/catalog")
                 .retrieve()
-                .toEntity(ApiVersionDto[].class);
+                .toEntity(ApiCatalogVersionsResponse.class);
 
         return result.getBody();
     }

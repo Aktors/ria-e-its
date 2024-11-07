@@ -1,0 +1,21 @@
+.search-form-container {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.version-container {
+  flex: 0 0 auto;
+}
+
+.keyword-container {
+  flex: 1 1 auto;
+}
+
+.search-button-container {
+  flex: 0 0 auto;
+}
+
+.full-width {
+  width: 100%;
+}

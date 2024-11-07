@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/measures")
 public class MeasuresController {
-
     private final MeasureRepository measureRepository;
     private final CatalogService catalogService;
 

@@ -1,0 +1,35 @@
+.full-width-table {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+tr.measure-content-row {
+  height: 0;
+}
+
+tr.measure-row:not(.measure-expanded-row):hover {
+  background: whitesmoke;
+}
+
+tr.measure-row:not(.measure-expanded-row):active {
+  background: #efefef;
+}
+
+.measure-row td {
+  border-bottom-width: 0;
+}
+
+.measure-content {
+  overflow: hidden;
+  display: block;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
