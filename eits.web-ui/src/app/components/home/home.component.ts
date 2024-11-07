@@ -24,5 +24,5 @@ import {MeasuresComponent} from '../measures/measures.component';
   ]
 })
 export class HomeComponent {
-  
+
 }
