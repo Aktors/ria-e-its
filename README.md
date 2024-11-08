@@ -104,7 +104,7 @@ Olemas olev lahendus ei ole hea ja töökindel. Artiklite loetelu teenus tagasta
 ### Stack
   * Java 21
   * Spring Boot 3
-  * Angular 18
+  * Angular 18 + material
 
 ### Projekti Struktuur
 Projekt jaguneb mitmeks osaks:

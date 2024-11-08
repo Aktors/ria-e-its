@@ -45,11 +45,11 @@ public class CatalogService {
     }
 
     private void toModulesMap(Map<String, ModuleDto> catalog, ModuleGroupDto moduleGroupDto) {
-        Optional.of(moduleGroupDto.getModules())
+        Optional.ofNullable(moduleGroupDto.getModules())
                 .ifPresent(modules -> Arrays.stream(modules)
                     .forEach(module -> catalog.putIfAbsent(module.getCode(),module)));
 
-        Optional.of(moduleGroupDto.getSubGroups()).ifPresent(
+        Optional.ofNullable(moduleGroupDto.getSubGroups()).ifPresent(
                 modules -> Arrays.stream(modules)
                         .forEach(module -> toModulesMap(catalog, module)));
     }
