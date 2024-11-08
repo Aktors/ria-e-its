@@ -34,11 +34,11 @@ public class ArticleNodeParser {
         JsonNode measuresNode = findNodeByProperty(moduleData, FIELD_TITLE, MEASURE_GROUP, FIELD_CHILD);
 
         ArrayList<MeasureDto> measures = new ArrayList<>();
-        Optional.of(findNodeByProperty(measuresNode, FIELD_TITLE, MAIN_MEASURE, FIELD_CHILD))
+        Optional.ofNullable(findNodeByProperty(measuresNode, FIELD_TITLE, MAIN_MEASURE, FIELD_CHILD))
                 .ifPresent(groupNode -> appendMeasureGroup(measures,groupNode, MeasureType.MAIN));
-        Optional.of(findNodeByProperty(measuresNode, FIELD_TITLE, STANDARD_MEASURE, FIELD_CHILD))
+        Optional.ofNullable(findNodeByProperty(measuresNode, FIELD_TITLE, STANDARD_MEASURE, FIELD_CHILD))
                 .ifPresent(groupNode -> appendMeasureGroup(measures,groupNode, MeasureType.STANDARD));
-        Optional.of(findNodeByProperty(measuresNode, FIELD_TITLE, HIGH_MEASURE, FIELD_CHILD))
+        Optional.ofNullable(findNodeByProperty(measuresNode, FIELD_TITLE, HIGH_MEASURE, FIELD_CHILD))
                 .ifPresent(groupNode -> appendMeasureGroup(measures,groupNode, MeasureType.HIGH));
 
         module.setMeasures(measures.toArray(new MeasureDto[0]));

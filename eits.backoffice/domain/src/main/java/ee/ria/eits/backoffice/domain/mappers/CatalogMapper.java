@@ -22,11 +22,12 @@ public class CatalogMapper {
         catalogDto.setVersion(apiCatalog.getVersion());
         catalogDto.setLang(apiCatalog.getLang());
 
-        Optional.of(apiCatalog.getModuleGroups())
+        Optional.ofNullable(apiCatalog.getModuleGroups())
                 .ifPresent(groups -> catalogDto.setModuleGroups(
                         Arrays.stream(apiCatalog.getModuleGroups())
                             .map(CatalogMapper::toModuleGroupDto)
-                            .toArray(ModuleGroupDto[]::new))
+                            .toArray(ModuleGroupDto[]::new)
+                        )
                 );
 
         return catalogDto;
@@ -36,18 +37,20 @@ public class CatalogMapper {
         ModuleGroupDto moduleGroup = new ModuleGroupDto();
         moduleGroup.setGroupCode(moduleGroupDto.getGroupCode());
 
-        Optional.of(moduleGroupDto.getModules())
+        Optional.ofNullable(moduleGroupDto.getModules())
                .ifPresent(modules -> moduleGroup.setModules(
                        Arrays.stream(modules)
                            .map(CatalogMapper::toModuleDto)
                            .toArray(ModuleDto[]::new)
-               ));
+                       )
+               );
 
-        Optional.of(moduleGroupDto.getModuleSubgroups())
+        Optional.ofNullable(moduleGroupDto.getModuleSubgroups())
                 .ifPresent(groups -> moduleGroup.setSubGroups(
                         Arrays.stream(groups)
                             .map(CatalogMapper::toModuleGroupDto)
-                            .toArray(ModuleGroupDto[]::new))
+                            .toArray(ModuleGroupDto[]::new)
+                        )
                 );
 
         return moduleGroup;
