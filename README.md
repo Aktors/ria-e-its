@@ -128,4 +128,3 @@ Projekt jaguneb mitmeks osaks:
 
 3. **Juurdepääs rakendusele**:
    - **Veebi liides**: [http://localhost:4200](http://localhost:4200)
-   - **REST Api**: [http://localhost:8080/swagger](http://localhost:8080/swagger)
