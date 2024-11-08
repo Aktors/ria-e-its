@@ -27,9 +27,10 @@ tr.measure-row:not(.measure-expanded-row):active {
   display: block;
 }
 
-.loading-container {
+.table-backup-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 600px;
+  background-color: #faf9fd;
+  height: 300px;
 }

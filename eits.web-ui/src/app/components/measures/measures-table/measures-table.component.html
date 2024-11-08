@@ -1,6 +1,5 @@
 <div class="mat-elevation-z2">
   <table mat-table class="full-width-table" matSort multiTemplateDataRows aria-label="Measures">
-
     <ng-container matColumnDef="type">
       <th mat-header-cell *matHeaderCellDef  mat-sort-header>  Tüüp </th>
       <td mat-cell *matCellDef="let element">{{ element.type | typeTranslate}} </td>
@@ -44,6 +43,18 @@
     </tr>
     <tr mat-row *matRowDef="let row; columns: ['expandedDetail']" class="measure-content-row"></tr>
   </table>
+  
+  <div *ngIf="isLoading" class="table-backup-container">
+    <mat-progress-spinner 
+      diameter="40"
+      color="primary" 
+      mode="indeterminate">
+    </mat-progress-spinner>
+  </div>
+
+  <div *ngIf="!isLoading && dataSource.filteredDataCount == 0" class="table-backup-container">
+    <b>Andmestik puudub</b>
+  </div>
 
   <mat-paginator #paginator
                  [length]="dataSource.filteredDataCount"

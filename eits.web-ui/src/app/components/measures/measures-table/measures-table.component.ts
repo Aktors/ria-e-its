@@ -59,6 +59,7 @@ export class MeasuresTableComponent implements OnInit, AfterViewInit {
   displayedColumnsWithExpand = ['type','code','title','expand'];
   dataSource!: MeasuresDatasource;
   expandedRow: MeasureDto | null = null;
+  isLoading = true;
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
@@ -68,12 +69,16 @@ export class MeasuresTableComponent implements OnInit, AfterViewInit {
   }
   ngOnInit(): void {
     this.dataSource = new MeasuresDatasource(this.measuresService);
+    this.dataSource.isLoading$.subscribe((isLoading) => {
+      this.isLoading = isLoading;
+    });
   }
 
   ngAfterViewInit(): void {
     this.dataSource.sort = this.sort;
     this.dataSource.paginator = this.paginator;
     this.table.dataSource = this.dataSource;
+    this.isLoading = true;
   }
 
   setVersion(version: string): void {
