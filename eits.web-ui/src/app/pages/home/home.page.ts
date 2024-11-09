@@ -1,17 +1,16 @@
-import { Component, inject } from '@angular/core';
-import { BreakpointObserver } from '@angular/cdk/layout';
+import { Component } from '@angular/core';
 import { AsyncPipe } from '@angular/common';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
-import {MeasuresComponent} from '../measures/measures.component';
+import {MeasuresComponent} from '../../components/measures/measures.component';
 
 @Component({
   selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css',
+  templateUrl: './home.page.html',
+  styleUrl: './home.page.css',
   standalone: true,
   imports: [
     AsyncPipe,
@@ -23,6 +22,6 @@ import {MeasuresComponent} from '../measures/measures.component';
     MeasuresComponent
   ]
 })
-export class HomeComponent {
+export class HomePage {
 
 }
