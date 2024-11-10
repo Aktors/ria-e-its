@@ -10,7 +10,7 @@ import {QueryCriterionDto} from '../../model/table.type';
 export class MeasuresDatasource extends DataSource<MeasureDto> {
   filter$ = new BehaviorSubject<QueryCriterionDto[]>([]);
   sourceData$ = new BehaviorSubject<MeasureDto[]>([]);
-  isLoading$ = new BehaviorSubject<boolean>(false);
+  isLoading$ = new BehaviorSubject<boolean>(true);
   filteredDataCount: number = 0;
 
   paginator: MatPaginator | undefined;

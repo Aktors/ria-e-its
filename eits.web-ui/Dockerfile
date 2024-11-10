@@ -1,11 +1,7 @@
-﻿FROM node:18 as build
+﻿FROM node:18-alpine
 WORKDIR /app
 COPY . .
+RUN npm install -g @angular/cli
 RUN npm install
-RUN npm run build --dev
-
-
-FROM nginx:alpine
-COPY --from=build /app/dist/eits.web-ui/browser /usr/share/nginx/html
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+EXPOSE 4200
+CMD ["ng", "serve", "--host", "0.0.0.0"]
