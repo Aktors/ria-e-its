@@ -1,0 +1,32 @@
+.status-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background-color: #b3e0f2;
+  box-shadow: 0 0 6px rgba(143, 145, 168, 0.25);
+  padding: 5px;
+}
+
+.status-label {
+  font-size: 16px;
+  color: #333;
+}
+
+.status-indicator {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+.status-indicator.ok {
+  background-color: #4caf50;
+}
+
+.status-indicator.nok {
+  background-color: #f44336;
+}
+
+.status-indicator.warning {
+  background-color: #ffeb3b;
+}

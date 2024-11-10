@@ -1,7 +1,30 @@
-.grid-container {
-  padding: 5% 10%;
-  background-color: #f9f9f9;
+html, body {
+  height: 100%;
+  margin: 0;
 }
-h1 {
-  font-size: 32px;
+
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #e6f7ff;
+  box-sizing: border-box;
+}
+
+.grid-container > * {
+  max-width: 1024px;
+  width: 100%;
+}
+
+
+app-measures {
+  width: 100%;
+}
+
+app-system-status {
+  width: 100%;
+  margin-top: 20px;
 }

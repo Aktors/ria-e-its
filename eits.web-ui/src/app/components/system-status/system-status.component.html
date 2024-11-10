@@ -1,4 +1,3 @@
-<div>
-  <h3>System Status</h3>
-  <p>Status: {{ statusMessage ?? "unavailable" }}</p>
+<div class="status-bar">
+  <app-system-status-item *ngFor="let status of statuses" [label]="status.label" [status]="status.status"></app-system-status-item>
 </div>

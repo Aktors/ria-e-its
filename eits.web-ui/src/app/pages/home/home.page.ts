@@ -6,6 +6,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import {MeasuresComponent} from '../../components/measures/measures.component';
+import {SystemStatusComponent} from '../../components/system-status/system-status.component';
 
 @Component({
   selector: 'app-home',
@@ -19,7 +20,8 @@ import {MeasuresComponent} from '../../components/measures/measures.component';
     MatIconModule,
     MatButtonModule,
     MatCardModule,
-    MeasuresComponent
+    MeasuresComponent,
+    SystemStatusComponent
   ]
 })
 export class HomePage {

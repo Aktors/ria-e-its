@@ -1,0 +1,10 @@
+.status-bar {
+  background-color: #fff;
+  display: flex;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(143, 145, 168, 0.25);
+  justify-content: flex-start;
+  align-items: center;
+  padding: 24px;
+  gap: 8px;
+}
